@@ -1,0 +1,23 @@
+import { Component, OnInit } from '@angular/core';
+import {DataService} from '../data.service'
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
+})
+export class HomeComponent implements OnInit {
+
+
+  teacherData=[];
+  constructor(private DataService:DataService) { }
+
+
+  
+  ngOnInit() {
+    this.DataService.GetTeacher().subscribe(data=>this.teacherData=data);
+
+    
+  }
+
+}

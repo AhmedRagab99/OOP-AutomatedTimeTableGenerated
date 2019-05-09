@@ -1,0 +1,12 @@
+1-to start projrct  first run code in NetBeans Ide in order to let the server open
+
+2-install visual studio code (https://code.visualstudio.com/)
+
+3- open vscode and attach or open the angular folder to it
+4-open integrated terminal and install:
+                               1)install Node js (https://nodejs.org/en/)
+                               2)install angular cli(npm install -g @angular/cli)
+                               3)hit or type (npm install)
+5-hit (ng serve --o) to open angular project to live server (http://localhost:4200)
+
+6-let NetBeans run  all time to check or to test api in angular
